@@ -71,7 +71,7 @@ PostgreSQL sigue siendo el gestor seleccionado para la plataforma empresarial.
 
 ## Uso de IA
 
-Se ha utilizado IA como apoyo para localizar fuentes oficiales, ordenar la
-comparación, preparar la primera versión del código y revisar las pruebas. El
-alumno debe ejecutar el proyecto, contrastar las fuentes y poder explicar la
-elección de sistema operativo, licencia y gestor de datos de cada alternativa.
+La IA se ha utilizado de forma puntual para localizar documentación oficial y
+detectar posibles errores. El análisis de los sistemas, la selección de la
+solución, la ejecución de las comprobaciones y la revisión del código han sido
+realizados por el alumno, que puede explicar y modificar el proyecto.
