@@ -1,0 +1,12 @@
+{
+  "sistema": "Prototipo local Integra Tech Crimson",
+  "sistemas_operativos": ["Windows", "Linux", "Darwin"],
+  "python_minimo": [3, 10],
+  "sqlite_minimo": [3, 35, 0],
+  "archivos_obligatorios": [
+    "index.html",
+    "css/estilo.css",
+    "js/aplicacion.js",
+    "datos/sistemas.json"
+  ]
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "nombre": "Integra Tech Platform",
+    "tipo": "ERP y CRM a medida",
+    "licencia": "Código privado de Integra Tech Consulting",
+    "sistema_operativo": "Linux en servidor; navegador en el cliente",
+    "gestor_datos": "PostgreSQL",
+    "caracteristicas": "Clientes, proyectos, facturación, documentos y módulos SaaS",
+    "requisitos": "Python, FastAPI, Uvicorn, psycopg2 y PostgreSQL",
+    "encaje": "Seleccionado: ya está implantado y permite adaptación directa",
+    "fuente": "https://github.com/IntTecCon/integra-tech-platform"
+  },
+  {
+    "nombre": "Odoo 19",
+    "tipo": "ERP y CRM modular",
+    "licencia": "Community LGPLv3; Enterprise con licencia comercial",
+    "sistema_operativo": "Linux, Windows o macOS en instalación desde código",
+    "gestor_datos": "PostgreSQL 13 o posterior",
+    "caracteristicas": "Amplio catálogo de aplicaciones y módulos",
+    "requisitos": "Python 3.10 o posterior y PostgreSQL",
+    "encaje": "Alternativa completa, con coste de migración y adaptación",
+    "fuente": "https://www.odoo.com/documentation/19.0/administration/on_premise/source.html"
+  },
+  {
+    "nombre": "ERPNext",
+    "tipo": "ERP con CRM integrado",
+    "licencia": "GPLv3",
+    "sistema_operativo": "Servidor Linux; se recomienda Ubuntu LTS",
+    "gestor_datos": "MariaDB",
+    "caracteristicas": "Ventas, compras, inventario, contabilidad y proyectos",
+    "requisitos": "Frappe Framework, MariaDB y servicios de caché y colas",
+    "encaje": "Código abierto, pero exige migrar el desarrollo actual",
+    "fuente": "https://docs.frappe.io/legal/others/license-and-trademark"
+  },
+  {
+    "nombre": "Dynamics 365 Business Central",
+    "tipo": "ERP comercial en la nube o local",
+    "licencia": "Suscripción por usuario, dispositivo o tenant",
+    "sistema_operativo": "Servicio cloud accesible con navegador; Windows en despliegue local",
+    "gestor_datos": "Azure SQL en cloud; SQL Server o Azure SQL en migraciones locales",
+    "caracteristicas": "Finanzas, ventas, operaciones, proyectos e integración Microsoft",
+    "requisitos": "Tenant Microsoft Entra para cloud; infraestructura Microsoft en local",
+    "encaje": "Administración gestionada, con dependencia y coste de licencias",
+    "fuente": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/deployment/deployment"
+  }
+]

@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Integra Tech | Crimson</title>
+    <link rel="stylesheet" href="css/estilo.css">
+  </head>
+  <body>
+    <header>
+      <div>
+        <p class="etiqueta">SGE · RA1</p>
+        <h1>Integra Tech | Crimson</h1>
+        <p>Estudio sencillo de sistemas ERP-CRM para Integra Tech Consulting.</p>
+      </div>
+    </header>
+
+    <section class="distribucion">
+      <nav aria-label="Secciones">
+        <a href="#resumen">Resumen</a>
+        <a href="#comparacion">Comparación</a>
+        <a href="#seleccion">Selección</a>
+        <a href="#verificacion">Verificación</a>
+        <a href="#incidencias">Incidencias</a>
+      </nav>
+
+      <main>
+        <section id="resumen">
+          <h2>Sistemas estudiados</h2>
+          <div id="tarjetas" class="tarjetas"></div>
+        </section>
+
+        <section id="comparacion">
+          <h2>Comparación ERP-CRM</h2>
+          <div class="tabla-contenedor">
+            <table>
+              <thead>
+                <tr><th>Sistema</th><th>Licencia</th><th>Sistema operativo</th><th>Base de datos</th></tr>
+              </thead>
+              <tbody id="tabla-sistemas"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section id="seleccion" class="destacado">
+          <p class="etiqueta">Decisión razonada</p>
+          <h2>Continuar con Integra Tech Platform</h2>
+          <p>La empresa ya dispone de un ERP-CRM propio con clientes, proyectos,
+          facturación y módulos SaaS. Mantener Python, FastAPI y PostgreSQL evita
+          una migración innecesaria y conserva el control sobre la adaptación.</p>
+        </section>
+
+        <section id="verificacion">
+          <h2>Verificación del equipo</h2>
+          <p>Ejecuta <code>python verificar_sistema.py</code> y recarga esta página.</p>
+          <div id="resultado" class="resultado">Resultado pendiente.</div>
+        </section>
+
+        <section id="incidencias">
+          <h2>Incidencias</h2>
+          <p>Las incidencias y su resolución se registran en <a href="INCIDENCIAS.md">INCIDENCIAS.md</a>.</p>
+        </section>
+      </main>
+    </section>
+
+    <footer>Integra Tech Consulting · Proyecto académico con datos técnicos, sin datos de clientes</footer>
+    <script src="js/aplicacion.js"></script>
+  </body>
+</html>

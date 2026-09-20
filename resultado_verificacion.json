@@ -1,0 +1,41 @@
+{
+  "sistema": "Prototipo local Integra Tech Crimson",
+  "correcto": true,
+  "comprobaciones": [
+    {
+      "nombre": "Sistema operativo",
+      "correcto": true,
+      "detalle": "Windows 10"
+    },
+    {
+      "nombre": "Python",
+      "correcto": true,
+      "detalle": "3.11.9"
+    },
+    {
+      "nombre": "SQLite",
+      "correcto": true,
+      "detalle": "versión 3.45.1; integridad=ok, registros=1"
+    },
+    {
+      "nombre": "Archivo index.html",
+      "correcto": true,
+      "detalle": "encontrado"
+    },
+    {
+      "nombre": "Archivo css/estilo.css",
+      "correcto": true,
+      "detalle": "encontrado"
+    },
+    {
+      "nombre": "Archivo js/aplicacion.js",
+      "correcto": true,
+      "detalle": "encontrado"
+    },
+    {
+      "nombre": "Archivo datos/sistemas.json",
+      "correcto": true,
+      "detalle": "encontrado"
+    }
+  ]
+}
